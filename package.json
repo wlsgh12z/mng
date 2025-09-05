@@ -11,7 +11,7 @@
     "build:ssr": "react-router build",
     "preview": "react-router-serve build/server/index.js",
     "start": "react-router-serve build/server/index.js",
-    "build": "vite build",
+    "build": "vite build --config vite.config.spa.js",
     "postbuild": "copy dist\\index.html dist\\404.html",
     "deploy": "gh-pages -d dist -b gh-pages"
   },
