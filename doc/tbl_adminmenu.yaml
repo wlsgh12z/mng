@@ -1,0 +1,33 @@
+tbl_adminmenu:
+  - id: "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"   # TBL_ADMIN.ID와 동일해야 함
+    userid: "admin01"
+    univinfo:
+      univcd: "0001"
+      univnm: "대학1"
+      term: "KU"
+    menu: ["01", "02"]
+    modifydate: "20250904103000"
+    modifyid: "admin01"
+    modifyip: "192.168.0.11"
+
+  - id: "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    userid: "admin02"
+    univinfo:
+      univcd: "0002"
+      univnm: "대학2"
+      term: "KU"
+    menu: ["01", "04"]
+    modifydate: "20250904104500"
+    modifyid: "admin01"
+    modifyip: "192.168.0.11"
+
+  - id: "cccccccc-cccc-cccc-cccc-cccccccccccc"
+    userid: "admin03"
+    univinfo:
+      univcd: "0003"
+      univnm: "대학3"
+      term: "KU"
+    menu: ["02"]
+    modifydate: "20250904110000"
+    modifyid: "admin02"
+    modifyip: "192.168.0.12"
